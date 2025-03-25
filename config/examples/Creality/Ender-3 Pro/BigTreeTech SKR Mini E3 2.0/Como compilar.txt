@@ -1,10 +1,10 @@
 - Actualizar el fork MarlinConfigurations-destr0 a la última versión bugfix-2.0.x del repo original, adaptando los cambios
-- Actualizar el fork Marlin-destr0 a la última versión bugfix-2.0.x del repo original, adaptando los cambios
-- Copiar del fork MarlinConfigurations-destr0 los archivos Configuration.h y Configuration_adv.h de la carpeta \config\examples\Creality\Ender-3 Pro\BigTreeTech SKR Mini E3 2.0
-- Abrir el vscode en el fork Marlin-destr0
-- Abrir el plugin Auto build Marin y pinchar en Show ABM Panel
+- Actualizar el repo Marlin a la última versión bugfix-2.0.x, adaptando los cambios
+- Copiar los archivos Configuration.h y Configuration_adv.h de la carpeta "config\examples\Creality\Ender-3 Pro\BigTreeTech SKR Mini E3 2.0" del fork MarlinConfigurations-destr0 en la carpeta "Marlin" del repo Marlin
+- Abrir el vscode en el fork Marlin
+- Abrir el plugin Auto build Marlin y pinchar en Show ABM Panel
 - Seleccionar STM32F103RE_btt_USB (512K)
-- Copiar el binario firmware.bin que se gener aen la carpeta Marlin-destr0\.pio\build\STM32F103RE_btt_USB a la SD
+- Copiar el binario firmware.bin que se genera en la carpeta ".pio\build\STM32F103RE_btt_USB" del repo "Marlin" a la SD
 - Reiniciar la impresora
 - Init EEPROM
 - Store Settings
